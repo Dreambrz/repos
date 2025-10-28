@@ -1,0 +1,16 @@
+Package: firefox
+Architecture: amd64
+Version: 123.0~build3
+Priority: optional
+Section: web
+Maintainer: Mozilla Releng <release@mozilla.com>
+Installed-Size: 246412
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.5.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.0), libgtk-3-0 (>= 3.13.7), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.8), libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxrandr2 (>= 2:1.4.0), libxrender1
+Filename: pool/firefox-123.0.deb
+Size: 68010156
+MD5sum: ac6527037bfa929b36de0bdaac6a5a01
+SHA1: eace6bfeed7c867ce251ff374bcfe69d95306cee
+SHA256: 949b9677cdc165fee9722a0ef828d1cbfb22bc8e7c5944a7a60be54739824ae1
+SHA512: 34baaf6ca148a186b0e335208902ae4488b259bbf71b6abf1e375cc78cc98a362d4a2561c38d8e2ec175cb7273757e9776188b203e2af72d250a34bd90441af7
+Description: Mozilla Firefox
+
