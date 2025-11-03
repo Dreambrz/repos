@@ -1,3 +1,10 @@
+Origin: CookieOS
+Label: CookieOS Repository
+Suite: stable
+Codename: cookieos
+Architectures: amd64 arm64 armhf i386 all
+Components: main
+Description: CookieOS APT Repository
 Date: Tue, 28 Oct 2025 02:36:50 +0000
 MD5Sum:
  7eeb13b7460ebe444fcc4a44f480d8c3               38 Release
