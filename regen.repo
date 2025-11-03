@@ -1,0 +1,33 @@
+#!/bin/bash
+set -e
+
+cd ~/repo
+
+echo "[1/5] Atualizando Packages..."
+apt-ftparchive packages pool/ > dists/cookieos/main/binary-amd64/Packages
+gzip -fk dists/cookieos/main/binary-amd64/Packages
+
+apt-ftparchive packages pool/ > dists/cookieos/main/binary-all/Packages
+gzip -fk dists/cookieos/main/binary-all/Packages
+
+echo "[2/5] Regenerando Release..."
+apt-ftparchive \
+  -o APT::FTPArchive::Release::Origin="CookieOS" \
+  -o APT::FTPArchive::Release::Label="CookieOS Repository" \
+  -o APT::FTPArchive::Release::Suite="stable" \
+  -o APT::FTPArchive::Release::Codename="cookieos" \
+  -o APT::FTPArchive::Release::Architectures="amd64 all" \
+  -o APT::FTPArchive::Release::Components="main" \
+  -o APT::FTPArchive::Release::Description="CookieOS APT Repository" \
+  release dists/cookieos > dists/cookieos/Release
+
+echo "[3/5] Adicionando arquivos modificados ao git..."
+git add -A
+
+echo "[4/5] Criando commit..."
+git commit -m "Atualiza repositório APT (pool e Release)"
+
+echo "[5/5] Enviando alterações para o GitHub..."
+git push origin main
+
+echo "✅ Repositório atualizado e enviado com sucesso!"

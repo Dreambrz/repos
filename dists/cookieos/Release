@@ -1,32 +1,32 @@
 Architectures: amd64 all
 Codename: cookieos
 Components: main
-Date: Mon, 03 Nov 2025 02:22:48 +0000
+Date: Mon, 03 Nov 2025 02:28:19 +0000
 Description: CookieOS APT Repository
 Label: CookieOS Repository
 Origin: CookieOS
 Suite: stable
 MD5Sum:
- 5c26d2c4574b1e779acd617255d33c6f              194 Release
- 44e8e37905c5d36fc5d1301f7ddb456b             1121 main/binary-all/Packages
- 132ce1221fdf630adfc7fa60ec9377d4              658 main/binary-all/Packages.gz
- 7178995ec863854c8cae5884affa5366             1119 main/binary-amd64/Packages
- f4abc66b462c51dd756da241b2cc6393              656 main/binary-amd64/Packages.gz
+ a68b444a5d9d135026df40673e632c82              194 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-all/Packages
+ e375e8310095e46ed4a97996de35846a               29 main/binary-all/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-amd64/Packages
+ e375e8310095e46ed4a97996de35846a               29 main/binary-amd64/Packages.gz
 SHA1:
- 39bee2610e9ce1cab8573d4848cf00c6e62cd6f0              194 Release
- f09d48a0c7ecdfcb563ab58377e583743986b66e             1121 main/binary-all/Packages
- 9ccff274121fa240035f84951f179e6015f2ae4e              658 main/binary-all/Packages.gz
- 6f41691c7017818499c2dbc848abd59af3fd9ae0             1119 main/binary-amd64/Packages
- f66472d7e73f86ada603acf480decb0553ae833d              656 main/binary-amd64/Packages.gz
+ cd29b2e1eb99e41906eddfc50af649763ec71988              194 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-all/Packages
+ 165691b67dd3d1f422ba15c559cdb7f0045939b7               29 main/binary-all/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-amd64/Packages
+ 165691b67dd3d1f422ba15c559cdb7f0045939b7               29 main/binary-amd64/Packages.gz
 SHA256:
- 98cba6c42940d4294f3eec039b01729f90472a83043b3d5cd5438b6cd66a763b              194 Release
- ce0a3eb25900a389e29adb694d73c09804014b22d2b8793df34ef73c1e25b756             1121 main/binary-all/Packages
- f724d0bcfa39a2f7b44e1d7b1cf4db088dd22836793f214989e5f1089381b3df              658 main/binary-all/Packages.gz
- b8d0f92aad79e96e85741ce5b79e00d3ffe747bd4b8a34926d102c94e626c5e9             1119 main/binary-amd64/Packages
- 266ecdb3794c1066a3ebf64efcead57da0832d99567d71ea26ec2fc905be8882              656 main/binary-amd64/Packages.gz
+ 98f023482674ae9e4d2ecde7d7a79113ce7b0b0e24e009ddb9f9befe0473deb5              194 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-all/Packages
+ a376a5bfc5f4f7164eae1252d1e2b176ebf1869cdd828bffc8875b6fad546181               29 main/binary-all/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-amd64/Packages
+ a376a5bfc5f4f7164eae1252d1e2b176ebf1869cdd828bffc8875b6fad546181               29 main/binary-amd64/Packages.gz
 SHA512:
- 1cb110caff378f416775ddec7651c1ebc6c502ce6203be9f9524f056b6ef246a1eaf958e9af11f7e7dfa5d1e7e8773bb6d5c7909359d09779c847da855cea4a5              194 Release
- 13d8b995f023678862953c823e1e85219e5e6ebe97eadc3106b996bfa3554a670550eb374ffeda4ec8531a5eb4cea1cfdfdde5d1e861e6d6de451ee53326f43f             1121 main/binary-all/Packages
- 7b07862df9fda5c260ab96d40b2b864fcd1e8000cda06cf245a1edfdb2cc3b7293426459e9b2ff7e08d1b56b4aa690be7e625438fa8bf2c84e41eb1da44dcd01              658 main/binary-all/Packages.gz
- d8dec7399d39e412cd8a5a061ff9dd73ff494e1d5cc2903772de264db71feb712d59a5e8c7501722a91f653d6ae287af5c241f070c227b94f5a31fe9876a8144             1119 main/binary-amd64/Packages
- 1caef0e740db8c8e79ca9e5aef2a2fa6756a67101afd3011232bf68cd60b63a7cabecf057687da08bcae1e48dd45bd405c14684c473381fde1f6c6537daee709              656 main/binary-amd64/Packages.gz
+ 0ea91dbbf8654d8d77fac201542d2b2990caee50668d9e52adaebe5481aedd7cc3fafb80e3e9ec9bf0a0acc0a51cd5eb80d9e290900a48627ac4eab1e0f51bb2              194 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-all/Packages
+ bb741dc098c34c249dc01a8ab44122f8aaca977f99298761be9fc4311aa9d56ceff1c8fff8851dcc63077a651b8380eeef1bf08b89ebb8a4b1a3c6698208033f               29 main/binary-all/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-amd64/Packages
+ bb741dc098c34c249dc01a8ab44122f8aaca977f99298761be9fc4311aa9d56ceff1c8fff8851dcc63077a651b8380eeef1bf08b89ebb8a4b1a3c6698208033f               29 main/binary-amd64/Packages.gz
