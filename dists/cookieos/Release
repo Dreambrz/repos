@@ -1,31 +1,31 @@
-Origin: CookieOS
-Label: CookieOS Repository
-Suite: stable
+Architectures: amd64 all
 Codename: cookieos
-Architectures: amd64 arm64 armhf i386 all
 Components: main
+Date: Mon, 03 Nov 2025 02:22:48 +0000
 Description: CookieOS APT Repository
-Date: Tue, 28 Oct 2025 02:36:50 +0000
+Label: CookieOS Repository
+Origin: CookieOS
+Suite: stable
 MD5Sum:
- 7eeb13b7460ebe444fcc4a44f480d8c3               38 Release
+ 5c26d2c4574b1e779acd617255d33c6f              194 Release
  44e8e37905c5d36fc5d1301f7ddb456b             1121 main/binary-all/Packages
  132ce1221fdf630adfc7fa60ec9377d4              658 main/binary-all/Packages.gz
  7178995ec863854c8cae5884affa5366             1119 main/binary-amd64/Packages
  f4abc66b462c51dd756da241b2cc6393              656 main/binary-amd64/Packages.gz
 SHA1:
- a6b051a9b726a17e2062ceb7e6cc901ea35fc391               38 Release
+ 39bee2610e9ce1cab8573d4848cf00c6e62cd6f0              194 Release
  f09d48a0c7ecdfcb563ab58377e583743986b66e             1121 main/binary-all/Packages
  9ccff274121fa240035f84951f179e6015f2ae4e              658 main/binary-all/Packages.gz
  6f41691c7017818499c2dbc848abd59af3fd9ae0             1119 main/binary-amd64/Packages
  f66472d7e73f86ada603acf480decb0553ae833d              656 main/binary-amd64/Packages.gz
 SHA256:
- 31e9e96d58c8063e732cbbf19e4dc15d79706f8bcb438ef9177899ef7997f242               38 Release
+ 98cba6c42940d4294f3eec039b01729f90472a83043b3d5cd5438b6cd66a763b              194 Release
  ce0a3eb25900a389e29adb694d73c09804014b22d2b8793df34ef73c1e25b756             1121 main/binary-all/Packages
  f724d0bcfa39a2f7b44e1d7b1cf4db088dd22836793f214989e5f1089381b3df              658 main/binary-all/Packages.gz
  b8d0f92aad79e96e85741ce5b79e00d3ffe747bd4b8a34926d102c94e626c5e9             1119 main/binary-amd64/Packages
  266ecdb3794c1066a3ebf64efcead57da0832d99567d71ea26ec2fc905be8882              656 main/binary-amd64/Packages.gz
 SHA512:
- 4f43a38bffa62d0e788d21933bfef29511c9a16ff23755c7350468e1fd17dee844ee703e7d965ce6fc907fca316512b87d29feb8811b8d4da50dd9cbfec56aad               38 Release
+ 1cb110caff378f416775ddec7651c1ebc6c502ce6203be9f9524f056b6ef246a1eaf958e9af11f7e7dfa5d1e7e8773bb6d5c7909359d09779c847da855cea4a5              194 Release
  13d8b995f023678862953c823e1e85219e5e6ebe97eadc3106b996bfa3554a670550eb374ffeda4ec8531a5eb4cea1cfdfdde5d1e861e6d6de451ee53326f43f             1121 main/binary-all/Packages
  7b07862df9fda5c260ab96d40b2b864fcd1e8000cda06cf245a1edfdb2cc3b7293426459e9b2ff7e08d1b56b4aa690be7e625438fa8bf2c84e41eb1da44dcd01              658 main/binary-all/Packages.gz
  d8dec7399d39e412cd8a5a061ff9dd73ff494e1d5cc2903772de264db71feb712d59a5e8c7501722a91f653d6ae287af5c241f070c227b94f5a31fe9876a8144             1119 main/binary-amd64/Packages
